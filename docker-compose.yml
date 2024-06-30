@@ -6,5 +6,5 @@ services:
     ports:
       - "81:80"
     volumes:
-      - ./MyPortfolio-WebSite:/var/www/html
+      - .:/usr/share/nginx/html
     
